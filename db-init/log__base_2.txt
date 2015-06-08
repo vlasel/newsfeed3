@@ -1,0 +1,146 @@
+
+SQL*Plus: Release 11.2.0.2.0 Production on Ñð Èþë 30 00:22:36 2014
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
+
+SP2-0310: unable to open file "'(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521)))(CONNECT_DATA=(SID=xe)))'.sql"
+SQL> 
+SQL*Plus: Release 11.2.0.2.0 Production on Ñð Èþë 30 00:23:13 2014
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table altered.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+Input truncated to 7499 characters
+SP2-0027: Input is too long (> 2499 characters) - line ignored
+Input truncated to 7499 characters
+SP2-0027: Input is too long (> 2499 characters) - line ignored
+SP2-0027: Input is too long (> 2499 characters) - line ignored
+ERROR:
+ORA-00972: identifier is too long
+
+
+ALTER TRIGGER "NEWSFEED2"."T_USER_TRG" ENABLE
+*
+ERROR at line 1:
+ORA-04080: trigger 'T_USER_TRG' does not exist
+
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Index created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+	  REFERENCES "NEWSFEED2"."T_USER" ("F_ID") ENABLE
+	                         *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+	  REFERENCES "NEWSFEED2"."T_ROLE" ("F_ID") ENABLE
+	                         *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Index created.
+
+
+Table altered.
+
+
+Table altered.
+
+
+Table altered.
+
+	  REFERENCES "NEWSFEED2"."T_USER" ("F_ID") ENABLE
+	                         *
+ERROR at line 2:
+ORA-00942: table or view does not exist
+
+
+SQL> 
